@@ -99,7 +99,7 @@ public class HttpConnectActivity extends Activity implements OnClickListener {
 								.openConnection();
 						connect.setRequestMethod("GET");
 						connect.connect();
-
+//代码测试
 						String str = "";
 						int statusCode = connect.getResponseCode();
 						Logs.v("statusCode  :" + statusCode);

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@android:id/background"
+        android:drawable="@drawable/ic_global_operate_bar_bottom_collect_normal"/>
+    <item
+        android:id="@android:id/progress"
+        android:drawable="@drawable/ic_global_operate_bar_bottom_collect_collected"/>
+
+</layer-list>

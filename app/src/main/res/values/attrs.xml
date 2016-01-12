@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MyView">
+        <attr name="content" format="string" />
+        <attr name="textcolor" format="color" />
+        <attr name="textsize" format="dimension" />
+        <attr name="isshow" format="boolean" />
+        <attr name="mybackgroundcolor" format="color" />
+        <attr name="mybackgrounddrawable" format="reference" />
+        <attr name="textpostion" format="enum">
+            <enum name="left" value="0" />
+            <enum name="right" value="1" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="TitleBarView">
+        <attr name="title_text" format="string" />
+        <attr name="left_text" format="string" />
+        <attr name="right_text" format="string" />
+    </declare-styleable>
+</resources>

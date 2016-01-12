@@ -1,0 +1,26 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/holo_purple">
+
+    <Button
+        android:id="@+id/sliding_menu_yule_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="娱乐" />
+
+    <Button
+        android:id="@+id/sliding_menu_news_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="新闻" />
+
+    <Button
+        android:id="@+id/sliding_menu_keji_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="科技" />
+</LinearLayout>

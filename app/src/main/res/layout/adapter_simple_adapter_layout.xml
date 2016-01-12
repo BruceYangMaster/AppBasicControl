@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app1="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    <com.warmtel.expandtab.ExpandPopTabView
+        android:id="@+id/expand_pop_tabview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app1:tab_toggle_btn_bg="@drawable/nearby_drawable_selector"
+        app1:tab_toggle_btn_font_color="@android:color/background_dark"
+        />
+    <ListView
+        android:layout_below="@id/expand_pop_tabview"
+        android:id="@+id/simple_adapter_listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </ListView>
+
+</RelativeLayout>

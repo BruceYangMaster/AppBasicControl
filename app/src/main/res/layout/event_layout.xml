@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/event_message_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/event_conform_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="匿名内部类" />
+    
+     <Button
+        android:id="@+id/event_innerclass_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="内部类" />
+    
+    
+    <Button
+        android:id="@+id/event_hello_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="接口实现方式" />
+    
+     <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onAndroidClickListner"
+        android:text="android方式" />
+
+</LinearLayout>

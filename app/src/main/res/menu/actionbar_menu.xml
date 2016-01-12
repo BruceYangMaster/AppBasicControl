@@ -1,0 +1,31 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" >
+
+    <item
+        android:id="@+id/action_share"
+        android:actionProviderClass="com.scxh.android1503.ui.menu.MyActionProvider"
+        android:showAsAction="always"
+        android:icon="@drawable/abc_ic_menu_share_holo_light"
+        android:title="分享"/>
+    <item
+        android:id="@+id/action_search"
+        android:actionViewClass="android.widget.SearchView"
+        android:icon="@android:drawable/ic_search_category_default"
+        android:showAsAction="ifRoom|collapseActionView"
+        android:title="搜索">
+    </item>
+    <item
+        android:id="@+id/action_delete"
+        android:icon="@android:drawable/ic_delete"
+        android:showAsAction="ifRoom"
+        android:title="删除"/>
+    <item
+        android:id="@+id/action_statrt_login"
+        android:icon="@android:drawable/ic_input_add"
+        android:showAsAction="ifRoom"
+        android:title="添加"/>
+    <item
+        android:id="@+id/action_call_phone"
+        android:title="打电话"/>
+
+</menu>

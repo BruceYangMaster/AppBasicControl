@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/shape_gradient"
+            style="@style/MyShapeStyle"
+            android:background="@drawable/shape_gradient_txt"
+            android:text="渐变" />
+
+        <TextView
+            android:id="@+id/shape_solid"
+            style="@style/MyShapeStyle"
+            android:background="@drawable/shape_solid_txt"
+            android:text="填充" />
+
+        <TextView
+            android:id="@+id/shape_stroke"
+            style="@style/MyShapeStyle"
+            android:background="@drawable/shape_stroke_txt"
+            android:text="描边" />
+
+        <TextView
+            android:id="@+id/shape_coner"
+            style="@style/MyShapeStyle"
+            android:background="@drawable/shape_coner_txt"
+            android:text="圆角" />
+
+        <TextView
+            style="@style/MyShapeButtonStyle"
+            android:background="@drawable/shape_button_drawable_selector"
+            android:clickable="true"
+            android:text="按钮" />
+
+        <TextView
+            style="@style/MyShapeStyle"
+            android:background="@drawable/layer_text1"
+            android:text="layer"
+            android:layout_marginBottom="20dp" />
+    </LinearLayout>
+
+</ScrollView>

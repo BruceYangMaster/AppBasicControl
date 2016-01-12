@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Android1503学习</string>
+    <string name="hello_world">第一个android程序!</string>
+
+    <string name="first_txt">元素一</string>
+    <string name="two_txt">元素二</string>
+    <string name="three_txt">元素三</string>
+    <string name="four_txt">元素四</string>
+    <string name="five_txt">元素五</string>
+    <string name="six_txt">元素六</string>
+    <string name="content_txt">元素一因为兼容性问题，色阶板功能只能在IE浏览器中运行</string>
+    <string name="input_text_edit">请输入用户名</string>
+    <string name="input_password_edit">请输入密码</string>
+    <string name="findhouse_house_type_text">类型:%1$s</string>
+    <string name="ui_adapter_listview_txt">%1$s元</string>
+    <string name="notifiy_title">降价通知</string>
+    <string name="notifiy_content">全场1.1折，欢迎选购</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="sliding_menu_news_fragment">新闻Fragment</string>
+    <string name="sliding_menu_yule_fragment">娱乐Fragment</string>
+    <string name="sliding_menu_keji_fragment">科技Fragment</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

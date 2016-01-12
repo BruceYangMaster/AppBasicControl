@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.app.FragmentTabHost xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:scxh="http://schemas.android.com/apk/res-auto"
+    android:id="@android:id/tabhost"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.scxh.android1503.ui.custom.TitleBarView
+            android:id="@+id/my_titleview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            scxh:title_text="团购界面"
+            scxh:left_text="返回"
+            scxh:right_text="搜索"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TabWidget
+                android:id="@android:id/tabs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:divider="@null"
+                android:visibility="gone" />
+
+            <RadioGroup
+                android:id="@+id/tab_radio_group"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:background="@drawable/title_bar"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/tab_radio_one"
+                    style="@style/radio_button_style.radio_button_style_three"
+                    android:checked="true"
+                    android:drawableTop="@drawable/tab_indector_selector_one"
+                    android:text="首页" />
+
+                <RadioButton
+                    android:id="@+id/tab_radio_two"
+                    style="@style/radio_button_style.radio_button_style_three"
+                    android:drawableTop="@drawable/tab_indector_selector_two"
+                    android:text="商家" />
+
+                <RadioButton
+                    android:id="@+id/tab_radio_three"
+                    style="@style/radio_button_style.radio_button_style_three"
+                    android:drawableTop="@drawable/tab_indector_selector_three"
+                    android:text="设置" />
+            </RadioGroup>
+
+            <FrameLayout
+                android:id="@android:id/tabcontent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@id/tab_radio_group" />
+        </RelativeLayout>
+    </LinearLayout>
+</android.support.v4.app.FragmentTabHost>

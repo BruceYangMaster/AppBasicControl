@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="兴趣爱好" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <CheckBox
+            android:id="@+id/readbook_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onCheckboxClicked"
+            android:text="读书" />
+
+        <CheckBox
+            android:id="@+id/sport_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onCheckboxClicked"
+            android:text="运动" />
+
+        <CheckBox
+            android:id="@+id/game_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onCheckboxClicked"
+            android:text="游戏" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="自定义兴趣爱好" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <CheckBox
+            android:id="@+id/my_readbook_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/checkbox_drawable_selector"
+            android:button="@null"
+            android:onClick="onMyCheckboxClicked" />
+
+        <CheckBox
+            android:id="@+id/my_sport_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/checkbox_drawable_selector"
+            android:button="@null"
+            android:onClick="onMyCheckboxClicked" />
+
+        <CheckBox
+            android:id="@+id/my_game_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/checkbox_drawable_selector"
+            android:button="@null"
+            android:onClick="onMyCheckboxClicked" />
+    </LinearLayout>
+
+    
+    <Button android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="跳转到主界面"
+        android:onClick="onMainActivityLisetner"/>
+</LinearLayout>

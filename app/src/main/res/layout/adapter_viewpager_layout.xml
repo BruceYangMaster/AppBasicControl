@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/pager_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="30dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/pager_one_image"
+            style="@style/my_wrap"
+            android:src="@drawable/page_now" />
+
+        <ImageView
+            android:id="@+id/pager_two_image"
+             style="@style/my_wrap"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/page" />
+
+        <ImageView
+            android:id="@+id/pager_three_image"
+            style="@style/my_wrap"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/page" />
+    </LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/lauce_first_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FirstActivity" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="基本数据类型"
+        android:onClick="onStartTwoActivityBaseDataTypeClickLisenter" />
+    
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bundel类型"
+        android:onClick="onStartTwoActivityBundelClickLisenter" />
+    
+     <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Serializable类型"
+        android:onClick="onStartTwoActivitySerializableClickLisenter" />
+     
+      <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Parcelable类型"
+        android:onClick="onStartTwoActivityParcelableClickLisenter" />
+
+</LinearLayout>

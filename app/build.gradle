@@ -1,0 +1,42 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "23.0.1"
+
+    defaultConfig {
+        applicationId "com.scxh.android1503"
+        minSdkVersion 14
+        targetSdkVersion 21
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    packagingOptions {
+        exclude 'META-INF/NOTICE.txt'
+        exclude 'META-INF/LICENSE.txt'
+    }
+
+    useLibrary 'org.apache.http.legacy'
+}
+
+dependencies {
+    compile files('libs/android-async-http-1.4.9.jar')
+    compile files('libs/httpclient-4.4.1.1.jar')
+    compile files('libs/okhttp-2.5.0.jar')
+    compile files('libs/okio-1.6.0.jar')
+    compile files('libs/picasso-2.5.2.jar')
+    compile(name: 'android-XListView-library-release', ext: 'aar')
+    compile(name: 'android-expandpoptab-library-release', ext: 'aar')
+    compile(name: 'Android-Volley-library-release', ext: 'aar')
+    compile(name: 'Android-ImageCache-library-release', ext: 'aar')
+    compile(name: 'slidingmenu_library-release', ext: 'aar')
+    compile 'com.android.support:support-v4:23.1.1'
+    compile 'com.android.support:appcompat-v7:23.1.1'
+}

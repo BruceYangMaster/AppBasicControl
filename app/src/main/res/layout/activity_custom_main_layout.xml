@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.scxh.android1503.ui.custom.TitleBarView
+        android:id="@+id/my_titlebarview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:left_text="返回"
+        app:right_text="设置"
+        app:title_text="标题" />
+
+    <com.scxh.android1503.ui.custom.MyView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:content="自定义控件"
+        app:isshow="true"
+        app:mybackgroundcolor="@android:color/holo_orange_light"
+        app:textcolor="@android:color/white"
+        app:textpostion="left"
+        app:textsize="18sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="系统控件TextView" />
+
+    <com.scxh.android1503.ui.custom.MyCustomView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:background="#ccc"
+        android:paddingBottom="40dp"
+        android:paddingLeft="20dp"
+        app:exampleColor="#33b5e5"
+        app:exampleDimension="24sp"
+        app:exampleDrawable="@android:drawable/ic_menu_add"
+        app:exampleString="Hello, MyCustomView" />
+</LinearLayout>

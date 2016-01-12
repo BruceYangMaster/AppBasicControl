@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" >
+
+    <item
+        android:id="@+id/action_search"
+        android:title="设置">
+        <menu>
+            <item
+                android:id="@+id/action_pop_reply_all"
+                android:title="回复所有人"/>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/action_delete"
+        android:title="删除"/>
+    <item
+        android:id="@+id/action_statrt_login"
+        android:title="登录"/>
+    <item
+        android:id="@+id/action_call_phone"
+        android:title="打电话"/>
+
+</menu>

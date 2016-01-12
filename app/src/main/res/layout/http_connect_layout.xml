@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+	<TextView
+	    android:id="@+id/http_show_message_txt"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content" />
+
+	<Button
+        android:id="@+id/http_connect_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="HttpUrlConnect 连接" />
+    <Button
+        android:id="@+id/http_connect_get_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="HttpUrlConnect传参Get" />
+    
+    <Button
+        android:id="@+id/http_connect_post_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="HttpUrlConnect传参Post" />
+    
+     <Button
+        android:id="@+id/http_client_get_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="HttpClient 连接" />
+     
+     <Button
+        android:id="@+id/http_client_connect_get_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="HttpClient传参Get" />
+     <Button
+        android:id="@+id/http_client_connect_post_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="HttpClient传参Post " />
+     <Button
+        android:id="@+id/http_client_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="HttpClient封装 " />
+
+     <Button
+        android:id="@+id/http_okhttp_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="okHttp " />
+     <Button
+        android:id="@+id/http_jsonhttp_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="jsonHttp " />
+</LinearLayout>

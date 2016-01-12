@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/dialog_progress_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="进度条对话框" />
+
+        <Button
+            android:id="@+id/dialog_date_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="日期对话框" />
+
+        <Button
+            android:id="@+id/dialog_alert_ok_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="确认对话框" />
+
+        <Button
+            android:id="@+id/dialog_alert_radio_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="单选对话框" />
+
+        <Button
+            android:id="@+id/dialog_custome_view_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="自定义View对话框" />
+
+        <Button
+            android:id="@+id/dialog_custome_alert_daiog_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="自定义AlertDialog对话框" />
+
+        <Button
+            android:id="@+id/dialog_toast_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Toast对话框" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onActivityDialogClickLisenter"
+            android:text="Activity对话框" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onActivityTwoDialogClickLisenter"
+            android:text="ActivityTwo对话框" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onActivityTwoDialogClickLisenter"
+            android:text="ActivityTwo对话框" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onActivityTwoDialogClickLisenter"
+            android:text="ActivityTwo对话框" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onActivityTwoDialogClickLisenter"
+            android:text="ActivityTwo对话框11" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onActivityTwoDialogClickLisenter"
+            android:text="ActivityTwo对话框22" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onActivityTwoDialogClickLisenter"
+            android:text="ActivityTwo对话框33" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onActivityTwoDialogClickLisenter"
+            android:text="ActivityTwo对话框44" />
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:id="@+id/icon_img"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_margin="3dp"
+        android:background="@drawable/list1" />
+
+    <TextView
+        android:id="@+id/title_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/icon_img"
+        android:text="【多店通用】廖记棒棒鸡"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/content_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title_txt"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@id/icon_img"
+        android:text="32元代金券！全场通用，可叠加使用，节假日通用！" />
+    
+    <TextView
+        android:id="@+id/prince_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/content_txt"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@id/icon_img"
+        android:text="9" />
+    
+    <!-- <TextView
+        android:id="@+id/prince_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/content_txt"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@id/icon_img"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="20sp"
+        android:text="99" />
+    
+    <TextView
+        android:id="@+id/prince1_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/content_txt"
+        android:layout_marginTop="15dp"
+        android:layout_toRightOf="@id/prince_txt"
+        android:text="元" /> -->
+    
+
+     <TextView
+        android:id="@+id/mark_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/content_txt"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignBaseline="@id/prince_txt"
+        android:text="4.59分(8888)" />
+    
+</RelativeLayout>

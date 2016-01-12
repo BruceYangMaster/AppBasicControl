@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_pop_reply"
+        android:title="回复"
+        android:icon="@drawable/m4"/>
+    <item
+        android:id="@+id/action_pop_send"
+        android:title="转发"
+        android:icon="@drawable/m3"/>
+
+</menu>
